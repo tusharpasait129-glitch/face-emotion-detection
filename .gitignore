@@ -1,0 +1,26 @@
+# Data (too large / not ours to redistribute)
+data/*.csv
+data/*.zip
+
+# Model checkpoints (large binary files)
+models/*.pt
+models/*.pth
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+venv/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Output artifacts from detect.py runs
+detected_output.jpg
+*.mp4
+!assets/*.png
